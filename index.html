@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <a href="#">Subscribe</a>
+            </div>
+            <div class="header-center">
+                <a href="#"><h1>Large</h1></a>
+            </div>
+            <div class="header-right">
+                <button><a href="#">Sign up</a></button>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">World</a></li>
+                <li><a href="#">U.S.</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Opinion</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Style</a></li>
+                <li><a href="#">Travel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="featured-post"> 
+            <h1>Title of a longer featured blog post</h1>
+            <p>Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+            <a href="#"><h5>Continue reading...</h5></a>
+        </section>
+        <section class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <span class="category">World</span>
+                    <h2 class="card-title">Featured post</h2>
+                    <span class="date">Nov 12</span>
+                    <p class="description">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="read-more">Continue reading</a>
+                </div>
+                <div class="thumbnail">Thumbnail</div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <span class="category">Design</span>
+                    <h2 class="card-title">Post title</h2>
+                    <span class="date">Nov 11</span>
+                    <p class="description">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="read-more">Continue reading</a>
+                </div>
+                <div class="thumbnail">Thumbnail</div>
+            </div>
+        </section>
+<!-- Main Content area -->
+        <div class="Columns">
+            <div class="column-left">
+                <article class="blog-post"> 
+                    <h3 class="firehose" >From the Firehose</h3>
+                    <header class="post-header" >
+                        <h3 class="post-title" >Sample blog post</h3>
+                        <div class="post-meta">
+                            <span class="date">January 1, 2014 by </span>
+                            <a href="#">Mark</a>
+                        </div>
+                    </header>
+                    <div class="post-content">
+                        <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+                    </div>
+                 </article>
+                <article class="blog-post">
+                    <header class="post-header" >
+                        <h3 class="post-title">Another blog post</h3>
+                        <div class="post-meta">
+                            <span class="date">December 23, 2013 by </span> 
+                            <a href="#">Jacob</a>
+                        </div>
+                    </header>
+                    <div class="post-content">
+                        <p>
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+
+                        </p>
+                        <p>
+                            Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        </p>
+                        <p>
+                            Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+                        </p>
+                        <p>
+                            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                        </p>
+                    </div>    
+                </article>
+                <article class="blog-post">
+                    <header class="post-header">
+                        <h3 class="post-title">New feature</h3>
+                        <div class="post-meta">
+                            <span class="date">December 14, 2013 by </span>
+                            <a href="#" class="author">Chris</a>
+                        </div>
+                    </header>
+                    <div class="post-content">
+                        <p>
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                        </p>
+                        <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                        <li>Donec id elit non mi porta gravida at eget metus.</li>
+                        <li>Nulla vitae elit libero, a pharetra augue.</li>
+                        <p>
+                            Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+                        </p>
+                        <p>
+                            Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="sidebar">
+                <section class="about">
+                    <h3>About</h3>
+                    <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. 
+                        Aenean lacinia bibendum nulla sed consectetur.</p>
+                </section>
+
+                <section class="archives">
+                    <h3>Archives</h3>
+                    <ul>
+                        <li><a href="#">March 2014</a></li>
+                        <li><a href="#">February 2014</a></li>
+                        <li><a href="#">January 2014</a></li>
+                        <li><a href="#">December 2013</a></li>
+                        <li><a href="#">November 2013</a></li>
+                        <li><a href="#">October 2013</a></li>
+                        <li><a href="#">September 2013</a></li>
+                        <li><a href="#">August 2013</a></li>
+                        <li><a href="#">July 2013</a></li>
+                        <li><a href="#">June 2013</a></li>
+                        <li><a href="#">May 2013</a></li>
+                        <li><a href="#">April 2013</a></li>
+                    </ul>
+                </section>
+                <section class="elsewhere">
+                    <h3>Elsewhere</h3>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </section>
+            </div>
+
+        </div>
+
+            <div class="add-blog">
+                <h1>Add New Blog</h1>
+                <form id="blogForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <small id="nameError" class="error-message"></small>
+
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <small id="dateError" class="error-message"></small>
+
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                    <small id="titleError" class="error-message"></small>
+                    
+                    <label for="content">Content:</label>
+                    <textarea id="content" name="content" required></textarea>
+                    <small id="contentError" class="error-message"></small>
+                    
+                    <button type="submit">Add Blog</button>
+                </form>
+                
+                <h2>Blogs</h2>
+                <div id="blogs"></div>
+            </div>
+
+        <nav class="pagination">
+            <a href="#" class="older">Older</a>
+            <a href="#" class="newer">Newer</a>
+        </nav>
+
+        <footer class="footer">
+            <p>Blog template built for <a href="#">Bootstrap</a> by <a href="#">@mdo</a>.</p>
+            <br>
+            <p><a href="#">Back to top</a></p>
+        </footer>
+    </main>
+</body>
+</html>
